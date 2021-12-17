@@ -1,0 +1,26 @@
+body {
+    background-color: #051D3B;
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 56px;
+    display: flex;
+    justify-self: left;
+}
+
+.barraPesquisa{
+    display: flex;
+    justify-self: center;
+}
+
+.fotoPerfil{
+    display: flex;
+    justify-self: right;
+    height: 56px;
+}
