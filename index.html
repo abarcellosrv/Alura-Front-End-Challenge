@@ -9,29 +9,45 @@
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
 
-<header>
-    <div class="box">
-        <img src="./src/logo.png" class="logo">
-        <img src="./src/barraPesquisa.png" class="barraPesquisa">
-        <img src="./src/fotoPerfil.png" class="fotoPerfil">
-    </div>
-</header>
+
 
 <body>
+
+    <header>
+        <div class="headerBox">
+            <img src="./src/logo.png" class="logo">
+            <input type="text" name="" class="barraPesquisa" placeholder="Busque por algo">
+            <img src="./src/fotoPerfil.png" class="fotoPerfil">
+        </div>
+    </header>
     
-    <div class="box">
+    <div class="largeBox">
         <div class="menuBox">
             <div>
-                <p class="menuTitleText">Menu</p>
+                <div class="menuTitleText">Menu</div>
             </div>
             <div class="box container">
-                <div class="iconBackground"></div>
+                <div class="iconBackground box">
+                    <img src="./src/code_black_24dp.svg" class="iconImage">
+                </div>
                 <div class="menuItemText">Editor de código</div>
             </div>
             <div class="box container">
-                <div class="iconBackground"></div>
+                <div class="iconBackground box">
+                    <img src="./src/groups_black_24dp.svg" class="iconImage">
+                </div>
                 <div class="menuItemText">Comunidade</div>
             </div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div class="rightMenuBox">
+            <div>
+                <div class="rightMenuText">Seu Projeto</div>
+            </div>
+            
+            <input type="text" name="projectName" class="textInputField">
         </div>
     </div>
     

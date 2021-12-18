@@ -1,32 +1,41 @@
 body {
     background-color: #051D3B;
 }
+.largeBox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
 .box{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+}
+
+.headerBox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
 }
 
 .logo{
     height: 56px;
-    display: flex;
-    justify-self: left;
+    width: 12%;
 }
 
-.barraPesquisa{
-    display: flex;
-    justify-self: center;
-}
+
 
 .fotoPerfil{
     display: flex;
     justify-self: right;
     height: 56px;
+    width: 10%;
 }
 
 .menuBox{
-    width: 189px;
+    width: 20%;
     height: 146px;
+    float: left;
 }
 
 .menuTitleText{
@@ -35,7 +44,7 @@ body {
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    letter-spacing:7px;
+    letter-spacing:5px;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     margin-left: 10px;
@@ -46,7 +55,6 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 18px;
     color: rgb(255, 255, 255);
     text-align: left;
     float: left;
@@ -63,4 +71,48 @@ body {
 
 .container{
     float: left;
+    align-items: center;
+}
+
+.iconImage{
+    margin: auto;
+}
+
+.rightMenuBox{
+    float: right;
+    width: 20%;
+}
+
+.textInputField{
+    color: #C4C4C4;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    opacity: 16%;
+    margin-top: 10px;
+}
+
+::placeholder{
+    font-family: Inter;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.barraPesquisa{
+    width: 75%;
+    height: 40px;
+    border-radius: 8px;
+    color: #C4C4C4;
+    opacity: 16%;
+}
+
+.rightMenuText{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing:5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
 }
