@@ -1,0 +1,53 @@
+.largeBox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerBox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.logo{
+    height: 56px;
+    width: 12%;
+}
+
+.fotoPerfil{
+    display: flex;
+    justify-self: right;
+    height: 56px;
+    width: 10%;
+}
+
+.menuBox{
+    width: 20%;
+    height: 146px;
+    float: left;
+}
+
+.container{
+    float: left;
+    align-items: center;
+}
+
+.rightMenuBox{
+    float: right;
+    width: 20%;
+}
+
+.textInputField{
+    color: #C4C4C4;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    opacity: 16%;
+    margin-top: 10px;
+}

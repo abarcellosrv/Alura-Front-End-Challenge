@@ -1,0 +1,31 @@
+.menuTitleText {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+.menuItemText {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    float: left;
+}
+
+.rightMenuText {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
