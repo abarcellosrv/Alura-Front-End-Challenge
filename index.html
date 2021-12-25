@@ -16,8 +16,11 @@
     <header>
         <div class="headerBox">
             <img src="./src/logo.png" class="logo">
-            <input type="text" name="" class="barraPesquisa" placeholder="Busque por algo">
-            <img src="./src/fotoPerfil.png" class="fotoPerfil">
+            <div class="searchBarBox">
+                <input type="text" name="" class="searchBar" placeholder="Busque por algo">
+            </div>
+            
+            <img src="./src/fotoPerfil.png" class="profilePicture">
         </div>
     </header>
     
@@ -39,15 +42,28 @@
                 <div class="menuItemText">Comunidade</div>
             </div>
         </div>
-        <div>
-            <div></div>
+        <div class="outerBox">
+            <div>
+
+            </div>
         </div>
         <div class="rightMenuBox">
             <div>
                 <div class="rightMenuText">Seu Projeto</div>
             </div>
             
-            <input type="text" name="projectName" class="textInputField">
+            <input type="text" name="projectName" class="textInputField" placeholder="Nome do seu projeto">
+            <textarea name="" id="" cols="23" rows="4" class="textAreaField" placeholder="Descrição do seu projeto"></textarea>
+
+            <div>
+                <div class="rightMenuText">Personalização</div>
+            </div>
+
+            <select name="" id="languages" class="selectLanguage">
+                <option value="javascript">Javascript</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+            </select>
         </div>
     </div>
     

@@ -29,3 +29,31 @@
     text-transform: uppercase;
     color: rgb(255, 255, 255);
 }
+
+input.textInputField::placeholder{
+    font-family: Inter;
+    font-size: 14px;
+    color:rgba(206, 203, 203, 0.712);
+    opacity:initial;
+}
+
+input::placeholder {
+    font-family: Inter;
+    font-size: 20px;
+    color:rgba(206, 203, 203, 0.712);
+    opacity:initial;
+}
+
+textarea.textAreaField::placeholder{
+    font-family: Inter;
+    font-size: 14px;
+    color:rgba(206, 203, 203, 0.712);
+    opacity:initial;
+}
+
+.optionStyles{
+    font-family: Inter;
+    font-size: 20px;
+    color:rgba(206, 203, 203, 0.712);
+    opacity:initial;
+}
