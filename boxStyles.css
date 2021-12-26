@@ -10,21 +10,37 @@
 
 .headerBox{
     display: flex;
-    justify-content: space-between;
     margin-top: 10px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo{
     height: 56px;
-    width: 12%;
+    width: 150px;   
 }
 
 .profilePicture{
-    display: flex;
-    justify-self: right;
     height: 56px;
-    width: 10%;
+    width: 110px;
+    margin-right: 36px;
+    margin-left: 10px;
+}
+
+.searchBar {
+    width: 650px;
+    box-sizing: content-box;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 48px;
+    font-size: 24px;
+    font-family: Inter;
+    border:none;
+    color: white;
+    background-image: url('./src/search_white_24dp.svg');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
 }
 
 .menuBox{
@@ -55,11 +71,24 @@
 }
 
 .outerBox{
-    color: #6BD1FF;
+    background: #6BD1FF;
     padding: 30px;
     width: fit-content;
     height: fit-content;
+    border-radius: 8px; 
+    padding: 40px;
+    margin-bottom: 20px;
 }
+
+.codeArea{
+    background: #000000;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    width: 600px;
+    color: white;
+}
+
 .textAreaField{
     background: rgba(255, 255, 255, 0.1);
     width: 200px;
@@ -71,23 +100,6 @@
     padding-top: 20px;
     padding-left: 10px;
     margin-bottom: 20px;
-}
-
-.searchBar {
-    width: 600px;
-    box-sizing: content-box;
-    height: 40px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    padding-left: 48px;
-    font-size: 24px;
-    font-family: Inter;
-    border:none;
-    color: white;
-    background-image: url('./src/search_white_24dp.svg');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-
 }
 
 .searchBar:focus{
@@ -102,6 +114,45 @@
     border:none;
     padding-left: 10px;
     background: rgba(255, 255, 255, 0.1);
+    font-family: Inter;
+    font-size: 16px;
+    color: rgba(250, 235, 215, 0.685);
 }
 
+.inputColor{
+    margin-top: 20px;
+    width: 214px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background: #051D3B;
+    padding: 10px;
+}
+
+.centerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.highlightButton{
+    height: 50px;
+    background: rgba(80, 129, 251, 0.08);
+    border: none;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    box-shadow: 2px 2px 2px #000000;
+}
+
+.saveProjectButton{
+    margin-top: 30px;
+    width: 214px;
+    height: 48px;
+    background: rgba(80, 129, 251, 1);
+    border: none;
+    border-radius: 8px;
+    color: rgba(5, 29, 59, 1);
+    font-size: 16px;
+}
 
